@@ -17,6 +17,6 @@ jobs:
           path: test-results
 
 workflows:
-  testing_triangles:
+  testing_github:
     jobs:
       - build-and-test
